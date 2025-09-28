@@ -28,7 +28,7 @@ def calculator():
     except ValueError:
         print("❌ Invalid input. Please enter numeric values.")
         return
-
+#hi
     if choice == '1':
         print(f"Result: {add(num1, num2)}")
     elif choice == '2':
@@ -42,4 +42,3 @@ def calculator():
 
 if __name__ == "__main__":
     calculator()
-    
